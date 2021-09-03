@@ -1,0 +1,6 @@
+module Pods_TinnitusSample {
+  umbrella header "Pods-TinnitusSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

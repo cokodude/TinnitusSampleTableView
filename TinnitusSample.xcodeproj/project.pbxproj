@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A870E3ADACA4406ABA02AE90 /* libPods-TinnitusSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B15A26EDF0F4410A6A5AB5 /* libPods-TinnitusSample.a */; };
+		F56D811126E1E87200648FC8 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56D811026E1E87200648FC8 /* FeedTableViewCell.swift */; };
 		F5F665EE26E1E39D00B702AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F665ED26E1E39D00B702AE /* AppDelegate.swift */; };
 		F5F665F026E1E39D00B702AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F665EF26E1E39D00B702AE /* SceneDelegate.swift */; };
-		F5F665F226E1E39D00B702AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F665F126E1E39D00B702AE /* ViewController.swift */; };
+		F5F665F226E1E39D00B702AE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F665F126E1E39D00B702AE /* MainViewController.swift */; };
 		F5F665F526E1E39D00B702AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F665F326E1E39D00B702AE /* Main.storyboard */; };
 		F5F665F726E1E39F00B702AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F665F626E1E39F00B702AE /* Assets.xcassets */; };
 		F5F665FA26E1E39F00B702AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F665F826E1E39F00B702AE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10D8E71A5962C45B266EED7C /* Pods-TinnitusSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinnitusSample.debug.xcconfig"; path = "Target Support Files/Pods-TinnitusSample/Pods-TinnitusSample.debug.xcconfig"; sourceTree = "<group>"; };
+		35B15A26EDF0F4410A6A5AB5 /* libPods-TinnitusSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TinnitusSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EE5190776E3D66797FE7B9 /* Pods-TinnitusSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinnitusSample.release.xcconfig"; path = "Target Support Files/Pods-TinnitusSample/Pods-TinnitusSample.release.xcconfig"; sourceTree = "<group>"; };
+		F56D811026E1E87200648FC8 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		F5F665EA26E1E39D00B702AE /* TinnitusSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinnitusSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F665ED26E1E39D00B702AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5F665EF26E1E39D00B702AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5F665F126E1E39D00B702AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5F665F126E1E39D00B702AE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F5F665F426E1E39D00B702AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5F665F626E1E39F00B702AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5F665F926E1E39F00B702AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A870E3ADACA4406ABA02AE90 /* libPods-TinnitusSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32E3FDDADD7FCE65438E909D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35B15A26EDF0F4410A6A5AB5 /* libPods-TinnitusSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		533CCDE5E27FFEBD313355D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10D8E71A5962C45B266EED7C /* Pods-TinnitusSample.debug.xcconfig */,
+				B7EE5190776E3D66797FE7B9 /* Pods-TinnitusSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F5F665E126E1E39D00B702AE = {
 			isa = PBXGroup;
 			children = (
 				F5F665EC26E1E39D00B702AE /* TinnitusSample */,
 				F5F665EB26E1E39D00B702AE /* Products */,
+				533CCDE5E27FFEBD313355D4 /* Pods */,
+				32E3FDDADD7FCE65438E909D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +84,8 @@
 			children = (
 				F5F665ED26E1E39D00B702AE /* AppDelegate.swift */,
 				F5F665EF26E1E39D00B702AE /* SceneDelegate.swift */,
-				F5F665F126E1E39D00B702AE /* ViewController.swift */,
+				F5F665F126E1E39D00B702AE /* MainViewController.swift */,
+				F56D811026E1E87200648FC8 /* FeedTableViewCell.swift */,
 				F5F665F326E1E39D00B702AE /* Main.storyboard */,
 				F5F665F626E1E39F00B702AE /* Assets.xcassets */,
 				F5F665F826E1E39F00B702AE /* LaunchScreen.storyboard */,
@@ -74,6 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5F665FE26E1E39F00B702AE /* Build configuration list for PBXNativeTarget "TinnitusSample" */;
 			buildPhases = (
+				F33282530C87784A990B4865 /* [CP] Check Pods Manifest.lock */,
 				F5F665E626E1E39D00B702AE /* Sources */,
 				F5F665E726E1E39D00B702AE /* Frameworks */,
 				F5F665E826E1E39D00B702AE /* Resources */,
@@ -132,12 +160,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F33282530C87784A990B4865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinnitusSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5F665E626E1E39D00B702AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5F665F226E1E39D00B702AE /* ViewController.swift in Sources */,
+				F5F665F226E1E39D00B702AE /* MainViewController.swift in Sources */,
+				F56D811126E1E87200648FC8 /* FeedTableViewCell.swift in Sources */,
 				F5F665EE26E1E39D00B702AE /* AppDelegate.swift in Sources */,
 				F5F665F026E1E39D00B702AE /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +337,7 @@
 		};
 		F5F665FF26E1E39F00B702AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D8E71A5962C45B266EED7C /* Pods-TinnitusSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +357,7 @@
 		};
 		F5F6660026E1E39F00B702AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7EE5190776E3D66797FE7B9 /* Pods-TinnitusSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
